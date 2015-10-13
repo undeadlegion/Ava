@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		2C1E23D31BCD447700B4E947 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E23D21BCD447700B4E947 /* AppDelegate.swift */; };
-		2C1E23D51BCD447700B4E947 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E23D41BCD447700B4E947 /* ViewController.swift */; };
+		2C1E23D51BCD447700B4E947 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E23D41BCD447700B4E947 /* HomeViewController.swift */; };
 		2C1E23D81BCD447700B4E947 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C1E23D61BCD447700B4E947 /* Main.storyboard */; };
 		2C1E23DA1BCD447700B4E947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C1E23D91BCD447700B4E947 /* Assets.xcassets */; };
 		2C1E23DD1BCD447700B4E947 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C1E23DB1BCD447700B4E947 /* LaunchScreen.storyboard */; };
 		2C1E23E81BCD447700B4E947 /* AvaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E23E71BCD447700B4E947 /* AvaTests.swift */; };
 		2C1E23F31BCD447700B4E947 /* AvaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E23F21BCD447700B4E947 /* AvaUITests.swift */; };
+		2C1E24011BCD50E000B4E947 /* AvaPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E24001BCD50E000B4E947 /* AvaPageViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		2C1E24031BCD50F700B4E947 /* GoalsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E24021BCD50F700B4E947 /* GoalsPageViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		2C1E24051BCD581500B4E947 /* GoalsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E24041BCD581500B4E947 /* GoalsTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		2C1E24071BCD591F00B4E947 /* AvaMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E24061BCD591F00B4E947 /* AvaMainViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		2C1E24091BCD592C00B4E947 /* AvaSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E24081BCD592C00B4E947 /* AvaSummaryViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,7 @@
 /* Begin PBXFileReference section */
 		2C1E23CF1BCD447700B4E947 /* Ava.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ava.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C1E23D21BCD447700B4E947 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2C1E23D41BCD447700B4E947 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2C1E23D41BCD447700B4E947 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		2C1E23D71BCD447700B4E947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2C1E23D91BCD447700B4E947 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C1E23DC1BCD447700B4E947 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +52,11 @@
 		2C1E23EE1BCD447700B4E947 /* AvaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AvaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C1E23F21BCD447700B4E947 /* AvaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvaUITests.swift; sourceTree = "<group>"; };
 		2C1E23F41BCD447700B4E947 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C1E24001BCD50E000B4E947 /* AvaPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvaPageViewController.swift; sourceTree = "<group>"; };
+		2C1E24021BCD50F700B4E947 /* GoalsPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalsPageViewController.swift; sourceTree = "<group>"; };
+		2C1E24041BCD581500B4E947 /* GoalsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalsTableViewController.swift; sourceTree = "<group>"; };
+		2C1E24061BCD591F00B4E947 /* AvaMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvaMainViewController.swift; sourceTree = "<group>"; };
+		2C1E24081BCD592C00B4E947 /* AvaSummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvaSummaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +108,10 @@
 			isa = PBXGroup;
 			children = (
 				2C1E23D21BCD447700B4E947 /* AppDelegate.swift */,
-				2C1E23D41BCD447700B4E947 /* ViewController.swift */,
+				2C1E23D41BCD447700B4E947 /* HomeViewController.swift */,
+				2C1E24001BCD50E000B4E947 /* AvaPageViewController.swift */,
+				2C1E24021BCD50F700B4E947 /* GoalsPageViewController.swift */,
+				2C1E240A1BCD599E00B4E947 /* Subviews */,
 				2C1E23D61BCD447700B4E947 /* Main.storyboard */,
 				2C1E23D91BCD447700B4E947 /* Assets.xcassets */,
 				2C1E23DB1BCD447700B4E947 /* LaunchScreen.storyboard */,
@@ -123,6 +136,16 @@
 				2C1E23F41BCD447700B4E947 /* Info.plist */,
 			);
 			path = AvaUITests;
+			sourceTree = "<group>";
+		};
+		2C1E240A1BCD599E00B4E947 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				2C1E24061BCD591F00B4E947 /* AvaMainViewController.swift */,
+				2C1E24081BCD592C00B4E947 /* AvaSummaryViewController.swift */,
+				2C1E24041BCD581500B4E947 /* GoalsTableViewController.swift */,
+			);
+			name = Subviews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,8 +279,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C1E23D51BCD447700B4E947 /* ViewController.swift in Sources */,
+				2C1E24051BCD581500B4E947 /* GoalsTableViewController.swift in Sources */,
+				2C1E24091BCD592C00B4E947 /* AvaSummaryViewController.swift in Sources */,
+				2C1E24031BCD50F700B4E947 /* GoalsPageViewController.swift in Sources */,
+				2C1E24071BCD591F00B4E947 /* AvaMainViewController.swift in Sources */,
+				2C1E23D51BCD447700B4E947 /* HomeViewController.swift in Sources */,
 				2C1E23D31BCD447700B4E947 /* AppDelegate.swift in Sources */,
+				2C1E24011BCD50E000B4E947 /* AvaPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
