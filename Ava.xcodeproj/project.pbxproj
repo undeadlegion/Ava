@@ -192,6 +192,7 @@
 				TargetAttributes = {
 					2C1E23CE1BCD447700B4E947 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = NRDCHXGC4H;
 					};
 					2C1E23E21BCD447700B4E947 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -398,6 +399,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Ava/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JLubo.Ava;
@@ -409,6 +411,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Ava/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JLubo.Ava;
@@ -483,6 +486,7 @@
 				2C1E23F91BCD447700B4E947 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C1E23FA1BCD447700B4E947 /* Build configuration list for PBXNativeTarget "AvaTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +495,7 @@
 				2C1E23FC1BCD447700B4E947 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C1E23FD1BCD447700B4E947 /* Build configuration list for PBXNativeTarget "AvaUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +504,7 @@
 				2C1E23FF1BCD447700B4E947 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
