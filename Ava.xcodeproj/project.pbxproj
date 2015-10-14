@@ -19,6 +19,8 @@
 		2C1E24051BCD581500B4E947 /* GoalsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E24041BCD581500B4E947 /* GoalsTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		2C1E24071BCD591F00B4E947 /* AvaMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E24061BCD591F00B4E947 /* AvaMainViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		2C1E24091BCD592C00B4E947 /* AvaSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E24081BCD592C00B4E947 /* AvaSummaryViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		2C1E240E1BCD939500B4E947 /* SideDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E240D1BCD939500B4E947 /* SideDrawerController.swift */; settings = {ASSET_TAGS = (); }; };
+		50138C5D755451A0FD3ED22B /* Pods_Ava.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D40A685CFB188E16A1DBC6A /* Pods_Ava.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,10 @@
 		2C1E24041BCD581500B4E947 /* GoalsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalsTableViewController.swift; sourceTree = "<group>"; };
 		2C1E24061BCD591F00B4E947 /* AvaMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvaMainViewController.swift; sourceTree = "<group>"; };
 		2C1E24081BCD592C00B4E947 /* AvaSummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvaSummaryViewController.swift; sourceTree = "<group>"; };
+		2C1E240D1BCD939500B4E947 /* SideDrawerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideDrawerController.swift; sourceTree = "<group>"; };
+		2D40A685CFB188E16A1DBC6A /* Pods_Ava.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ava.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90F8D59592E583E757421C51 /* Pods-Ava.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ava.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ava/Pods-Ava.debug.xcconfig"; sourceTree = "<group>"; };
+		DADE1274403A29D03F7A8750 /* Pods-Ava.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ava.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ava/Pods-Ava.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50138C5D755451A0FD3ED22B /* Pods_Ava.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +98,8 @@
 				2C1E23E61BCD447700B4E947 /* AvaTests */,
 				2C1E23F11BCD447700B4E947 /* AvaUITests */,
 				2C1E23D01BCD447700B4E947 /* Products */,
+				32B0328AB8151B3F4AF681E7 /* Pods */,
+				A17633D5435B27E6EADDE59B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -111,6 +120,7 @@
 				2C1E23D41BCD447700B4E947 /* HomeViewController.swift */,
 				2C1E24001BCD50E000B4E947 /* AvaPageViewController.swift */,
 				2C1E24021BCD50F700B4E947 /* GoalsPageViewController.swift */,
+				2C1E240D1BCD939500B4E947 /* SideDrawerController.swift */,
 				2C1E240A1BCD599E00B4E947 /* Subviews */,
 				2C1E23D61BCD447700B4E947 /* Main.storyboard */,
 				2C1E23D91BCD447700B4E947 /* Assets.xcassets */,
@@ -148,6 +158,23 @@
 			name = Subviews;
 			sourceTree = "<group>";
 		};
+		32B0328AB8151B3F4AF681E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90F8D59592E583E757421C51 /* Pods-Ava.debug.xcconfig */,
+				DADE1274403A29D03F7A8750 /* Pods-Ava.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A17633D5435B27E6EADDE59B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D40A685CFB188E16A1DBC6A /* Pods_Ava.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,9 +182,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C1E23F71BCD447700B4E947 /* Build configuration list for PBXNativeTarget "Ava" */;
 			buildPhases = (
+				AD1658675F7CBA42D4F41879 /* Check Pods Manifest.lock */,
 				2C1E23CB1BCD447700B4E947 /* Sources */,
 				2C1E23CC1BCD447700B4E947 /* Frameworks */,
 				2C1E23CD1BCD447700B4E947 /* Resources */,
+				0DED5114C87C4B498D2CF271 /* Embed Pods Frameworks */,
+				9C975A8134E116DCB59323D1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -274,6 +304,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DED5114C87C4B498D2CF271 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ava/Pods-Ava-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C975A8134E116DCB59323D1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ava/Pods-Ava-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD1658675F7CBA42D4F41879 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2C1E23CB1BCD447700B4E947 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -282,6 +360,7 @@
 				2C1E24051BCD581500B4E947 /* GoalsTableViewController.swift in Sources */,
 				2C1E24091BCD592C00B4E947 /* AvaSummaryViewController.swift in Sources */,
 				2C1E24031BCD50F700B4E947 /* GoalsPageViewController.swift in Sources */,
+				2C1E240E1BCD939500B4E947 /* SideDrawerController.swift in Sources */,
 				2C1E24071BCD591F00B4E947 /* AvaMainViewController.swift in Sources */,
 				2C1E23D51BCD447700B4E947 /* HomeViewController.swift in Sources */,
 				2C1E23D31BCD447700B4E947 /* AppDelegate.swift in Sources */,
@@ -425,6 +504,7 @@
 		};
 		2C1E23F81BCD447700B4E947 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90F8D59592E583E757421C51 /* Pods-Ava.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -437,6 +517,7 @@
 		};
 		2C1E23F91BCD447700B4E947 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DADE1274403A29D03F7A8750 /* Pods-Ava.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

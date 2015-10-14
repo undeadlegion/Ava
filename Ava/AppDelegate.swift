@@ -7,15 +7,24 @@
 //
 
 import UIKit
+import DrawerController
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var drawerController: DrawerController!
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+//        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        
+//        let centerViewController = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController()
+//        centerViewController.view.backgroundColor = UIColor.blueColor()
+
+//        drawerController = DrawerController()
+//        drawerController.centerViewController = centerViewController
+//        window?.rootViewController = drawerController
+        
         return true
     }
 
