@@ -18,8 +18,12 @@
 		2C1E24031BCD50F700B4E947 /* GoalsPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E24021BCD50F700B4E947 /* GoalsPageViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		2C1E24051BCD581500B4E947 /* GoalsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E24041BCD581500B4E947 /* GoalsTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		2C1E24071BCD591F00B4E947 /* AvaMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E24061BCD591F00B4E947 /* AvaMainViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		2C1E24091BCD592C00B4E947 /* AvaSummaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E24081BCD592C00B4E947 /* AvaSummaryViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		2C1E24091BCD592C00B4E947 /* AvaMetersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E24081BCD592C00B4E947 /* AvaMetersViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		2C1E240E1BCD939500B4E947 /* SideDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E240D1BCD939500B4E947 /* SideDrawerController.swift */; settings = {ASSET_TAGS = (); }; };
+		2C6C21741BD45E7300554C27 /* GoalsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6C21731BD45E7300554C27 /* GoalsTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		2C6C21761BD68B5200554C27 /* AvaMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6C21751BD68B5200554C27 /* AvaMainView.swift */; settings = {ASSET_TAGS = (); }; };
+		2C6C21781BD68B5E00554C27 /* AvaMetersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6C21771BD68B5E00554C27 /* AvaMetersView.swift */; settings = {ASSET_TAGS = (); }; };
+		2C6C217A1BD6AD8A00554C27 /* AvaMeters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6C21791BD6AD8A00554C27 /* AvaMeters.swift */; settings = {ASSET_TAGS = (); }; };
 		50138C5D755451A0FD3ED22B /* Pods_Ava.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D40A685CFB188E16A1DBC6A /* Pods_Ava.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,8 +62,12 @@
 		2C1E24021BCD50F700B4E947 /* GoalsPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalsPageViewController.swift; sourceTree = "<group>"; };
 		2C1E24041BCD581500B4E947 /* GoalsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalsTableViewController.swift; sourceTree = "<group>"; };
 		2C1E24061BCD591F00B4E947 /* AvaMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvaMainViewController.swift; sourceTree = "<group>"; };
-		2C1E24081BCD592C00B4E947 /* AvaSummaryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvaSummaryViewController.swift; sourceTree = "<group>"; };
+		2C1E24081BCD592C00B4E947 /* AvaMetersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvaMetersViewController.swift; sourceTree = "<group>"; };
 		2C1E240D1BCD939500B4E947 /* SideDrawerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideDrawerController.swift; sourceTree = "<group>"; };
+		2C6C21731BD45E7300554C27 /* GoalsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoalsTableViewCell.swift; sourceTree = "<group>"; };
+		2C6C21751BD68B5200554C27 /* AvaMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvaMainView.swift; sourceTree = "<group>"; };
+		2C6C21771BD68B5E00554C27 /* AvaMetersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvaMetersView.swift; sourceTree = "<group>"; };
+		2C6C21791BD6AD8A00554C27 /* AvaMeters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvaMeters.swift; sourceTree = SOURCE_ROOT; };
 		2D40A685CFB188E16A1DBC6A /* Pods_Ava.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ava.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90F8D59592E583E757421C51 /* Pods-Ava.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ava.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Ava/Pods-Ava.debug.xcconfig"; sourceTree = "<group>"; };
 		DADE1274403A29D03F7A8750 /* Pods-Ava.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ava.release.xcconfig"; path = "Pods/Target Support Files/Pods-Ava/Pods-Ava.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,10 +126,9 @@
 			children = (
 				2C1E23D21BCD447700B4E947 /* AppDelegate.swift */,
 				2C1E23D41BCD447700B4E947 /* HomeViewController.swift */,
-				2C1E24001BCD50E000B4E947 /* AvaPageViewController.swift */,
-				2C1E24021BCD50F700B4E947 /* GoalsPageViewController.swift */,
-				2C1E240D1BCD939500B4E947 /* SideDrawerController.swift */,
-				2C1E240A1BCD599E00B4E947 /* Subviews */,
+				2C6C21701BD1501700554C27 /* Drawer Subviews */,
+				2C6C216F1BD14FF600554C27 /* Goals Subviews */,
+				2C1E240A1BCD599E00B4E947 /* Ava Subviews */,
 				2C1E23D61BCD447700B4E947 /* Main.storyboard */,
 				2C1E23D91BCD447700B4E947 /* Assets.xcassets */,
 				2C1E23DB1BCD447700B4E947 /* LaunchScreen.storyboard */,
@@ -148,14 +155,35 @@
 			path = AvaUITests;
 			sourceTree = "<group>";
 		};
-		2C1E240A1BCD599E00B4E947 /* Subviews */ = {
+		2C1E240A1BCD599E00B4E947 /* Ava Subviews */ = {
 			isa = PBXGroup;
 			children = (
+				2C1E24001BCD50E000B4E947 /* AvaPageViewController.swift */,
 				2C1E24061BCD591F00B4E947 /* AvaMainViewController.swift */,
-				2C1E24081BCD592C00B4E947 /* AvaSummaryViewController.swift */,
-				2C1E24041BCD581500B4E947 /* GoalsTableViewController.swift */,
+				2C1E24081BCD592C00B4E947 /* AvaMetersViewController.swift */,
+				2C6C21751BD68B5200554C27 /* AvaMainView.swift */,
+				2C6C21771BD68B5E00554C27 /* AvaMetersView.swift */,
+				2C6C21791BD6AD8A00554C27 /* AvaMeters.swift */,
 			);
-			name = Subviews;
+			name = "Ava Subviews";
+			sourceTree = "<group>";
+		};
+		2C6C216F1BD14FF600554C27 /* Goals Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				2C1E24021BCD50F700B4E947 /* GoalsPageViewController.swift */,
+				2C1E24041BCD581500B4E947 /* GoalsTableViewController.swift */,
+				2C6C21731BD45E7300554C27 /* GoalsTableViewCell.swift */,
+			);
+			name = "Goals Subviews";
+			sourceTree = "<group>";
+		};
+		2C6C21701BD1501700554C27 /* Drawer Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				2C1E240D1BCD939500B4E947 /* SideDrawerController.swift */,
+			);
+			name = "Drawer Subviews";
 			sourceTree = "<group>";
 		};
 		32B0328AB8151B3F4AF681E7 /* Pods */ = {
@@ -188,6 +216,7 @@
 				2C1E23CD1BCD447700B4E947 /* Resources */,
 				0DED5114C87C4B498D2CF271 /* Embed Pods Frameworks */,
 				9C975A8134E116DCB59323D1 /* Copy Pods Resources */,
+				2C4D2EA21BD08FBC004920DF /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -320,6 +349,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Ava/Pods-Ava-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		2C4D2EA21BD08FBC004920DF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "KEYWORDS=\"TODO:|FIXME:|\\?\\?\\?:|\\!\\!\\!:\"\nfind \"${SRCROOT}\" \\( -name \"*.swift\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | perl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"\n";
+		};
 		9C975A8134E116DCB59323D1 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -357,13 +399,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C6C21781BD68B5E00554C27 /* AvaMetersView.swift in Sources */,
 				2C1E24051BCD581500B4E947 /* GoalsTableViewController.swift in Sources */,
-				2C1E24091BCD592C00B4E947 /* AvaSummaryViewController.swift in Sources */,
+				2C1E24091BCD592C00B4E947 /* AvaMetersViewController.swift in Sources */,
 				2C1E24031BCD50F700B4E947 /* GoalsPageViewController.swift in Sources */,
+				2C6C21741BD45E7300554C27 /* GoalsTableViewCell.swift in Sources */,
 				2C1E240E1BCD939500B4E947 /* SideDrawerController.swift in Sources */,
 				2C1E24071BCD591F00B4E947 /* AvaMainViewController.swift in Sources */,
 				2C1E23D51BCD447700B4E947 /* HomeViewController.swift in Sources */,
+				2C6C217A1BD6AD8A00554C27 /* AvaMeters.swift in Sources */,
 				2C1E23D31BCD447700B4E947 /* AppDelegate.swift in Sources */,
+				2C6C21761BD68B5200554C27 /* AvaMainView.swift in Sources */,
 				2C1E24011BCD50E000B4E947 /* AvaPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,10 +14,9 @@ class AvaPageViewController: UIPageViewController, UIPageViewControllerDataSourc
     override func viewDidLoad() {
         super.viewDidLoad()
         // create the 2 ava views
-        let v1 = UIViewController()
-        v1.view.backgroundColor = UIColor.greenColor()
-        let v2 = UIViewController()
-        v2.view.backgroundColor = UIColor.grayColor()
+        let v1 = storyboard!.instantiateViewControllerWithIdentifier("MainViewController") as! AvaMainViewController
+        let v2 = storyboard!.instantiateViewControllerWithIdentifier("MetersViewController") as! AvaMetersViewController
+
         avaViewControllers = [v1, v2]
         
         view!.backgroundColor = UIColor.grayColor()
@@ -65,15 +64,4 @@ class AvaPageViewController: UIPageViewController, UIPageViewControllerDataSourc
     func presentationIndexForPageViewController(pageViewController: UIPageViewController) -> Int {
         return Int(0)
     }
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

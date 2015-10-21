@@ -23,25 +23,21 @@ class EmbedWithinDrawerController: UIStoryboardSegue {
 
 class SideDrawerViewController: DrawerController {
     var stateRestored = false
-    
-//    override func viewDidLoad() {
-//        super.viewDidLoad()
-//        
-//        performSegueWithIdentifier(EmbedWithinDrawerControllerSegue.centerViewController.rawValue, sender: self)
-////        performSegueWithIdentifier(EmbedWithinDrawerControllerSegue.rightDrawerViewController.rawValue, sender: self)
-//        
-////        maximumRightDrawerWidth = 160.0
-//        showsShadows = false
-//        closeDrawerGestureModeMask = .All
-//    
-//    }
+
     override func shouldPerformSegueWithIdentifier(identifier: String, sender: AnyObject?) -> Bool {
         return true
     }
     override func awakeFromNib() {
         if storyboard != nil {
+            closeDrawerGestureModeMask = .All
+            openDrawerGestureModeMask = .All
+            maximumLeftDrawerWidth = 50.0
+            maximumRightDrawerWidth = 160.0
+            showsShadows = true
+
             performSegueWithIdentifier(EmbedWithinDrawerControllerSegue.centerViewController.rawValue, sender: self)
             performSegueWithIdentifier(EmbedWithinDrawerControllerSegue.leftDrawerViewController.rawValue, sender: self)
+            performSegueWithIdentifier(EmbedWithinDrawerControllerSegue.rightDrawerViewController.rawValue, sender: self)
         }
     }
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
